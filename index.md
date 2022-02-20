@@ -1,29 +1,7 @@
 
 <body class="home page-template page-template-front-page page-template-front-page-php page">
-<div class="ready" id="webchat-app-bot">
-<script>
-(function (window, document) {
-var createBot = function () {
-var params = {
-};
-BotChat.Intro({ onRequestLive: function () { window.location = "mailto:st@sadalestikls.lv" } }, document.getElementById("webchat-app-bot"));
-};
-var loadChat = function () {
-var script = document.createElement("script"),
-link = document.createElement("link");
-script.src = "https://st-va.azurewebsites.net/botchat.min.js";
-link.href = "https://st-va.azurewebsites.net/botchat.min.css";
-link.rel = "stylesheet";
-script.onload = createBot;
-script.charset = "utf-8";
-document.head.appendChild(link);
-document.head.appendChild(script);
-};
-window.addEventListener ? window.addEventListener("load", loadChat, false) : window.attachEvent("onload", loadChat);
-})(window, document);
-  window.onload=function(){
-  document.getElementById("webchat-app-bot").click();
-};
-</script>
-</div>
+<!-- START Motion Chat Script --> 
+    <script src="https://85.254.44.20:443/api/chat/websites/1/snippet?token=eBexO64E3e2h00Vb60L7hWbaDnc45TrJ"></script> 
+<!-- START Motion Chat Script -->![image](https://user-images.githubusercontent.com/84854153/154847406-2c8884bc-477b-4686-a1f6-a16e4a139ca4.png)
+
 </body>
